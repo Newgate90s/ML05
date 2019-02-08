@@ -29,7 +29,7 @@ print("\nWeight: 4 ounces \nWidth: 152 millimeters")
 print("\nSmartphone or tablet?")
 
 # Waits for user input to continue
-wait = input("Press enter to see machine prediction")
+wait = input("\nPress enter to see machine prediction")
 print("\nMachine guess(0 = Smartphone, Tablet = 1): ")
 # Random unknown data to be predicted using features
 # Weight in ounces = 4, Width in millimeters = 152
