@@ -30,17 +30,19 @@ print("\nSmartphone or tablet?")
 
 # Waits for user input to continue
 wait = input("Press enter to see machine prediction")
-
+print("\nMachine guess(0 = Smartphone, Tablet = 1): ")
 # Random unknown data to be predicted using features
 # Weight in ounces = 4, Width in millimeters = 152
 print(classifier.predict([[4, 152]]))
 
-print("\nWeight: 13 ounces \n Width: 204 millimeters")
+# Waits for user input to continue
+wait = input("Press enter for round two!")
+print("\nWeight: 13 ounces \nWidth: 204 millimeters")
 print("\nSmartphone or tablet?")
 
 # Waits for user input to continue
 wait = input("Press enter to see machine prediction")
-print("Machine guess(0 = Smartphone, Tablet = 1): ")
+print("\nMachine guess(0 = Smartphone, Tablet = 1): ")
 
 # Random unknown data to be predicted using features
 # Weight in ounces = 13, Width in millimeters = 204
